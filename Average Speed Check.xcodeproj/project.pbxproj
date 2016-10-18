@@ -14,6 +14,7 @@
 		5DEAAB281D8064E900EBFE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEAAB261D8064E900EBFE77 /* LaunchScreen.storyboard */; };
 		5DEAAB331D8064E900EBFE77 /* Average_Speed_CheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAAB321D8064E900EBFE77 /* Average_Speed_CheckTests.swift */; };
 		5DEAAB3E1D8064E900EBFE77 /* Average_Speed_CheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAAB3D1D8064E900EBFE77 /* Average_Speed_CheckUITests.swift */; };
+		5DEAAB4D1D8076A400EBFE77 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEAAB4C1D8076A400EBFE77 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5DEAAB391D8064E900EBFE77 /* Average Speed CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Average Speed CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEAAB3D1D8064E900EBFE77 /* Average_Speed_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Average_Speed_CheckUITests.swift; sourceTree = "<group>"; };
 		5DEAAB3F1D8064E900EBFE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEAAB4C1D8076A400EBFE77 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DEAAB4D1D8076A400EBFE77 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				5DEAAB311D8064E900EBFE77 /* Average Speed CheckTests */,
 				5DEAAB3C1D8064E900EBFE77 /* Average Speed CheckUITests */,
 				5DEAAB1B1D8064E900EBFE77 /* Products */,
+				5DEAAB4B1D8076A400EBFE77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				5DEAAB3F1D8064E900EBFE77 /* Info.plist */,
 			);
 			path = "Average Speed CheckUITests";
+			sourceTree = "<group>";
+		};
+		5DEAAB4B1D8076A400EBFE77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DEAAB4C1D8076A400EBFE77 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
